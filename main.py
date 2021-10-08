@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import requests
 from time import sleep
 
-chromedriver_path= r"C:\Users\Admin\OneDrive\Desktop\Angela\chromedriver.exe"
+chromedriver_path= r"C:\Users\Admin\OneDrive\Desktop\keer\chromedriver.exe"
 
 googleform="https://forms.gle/ib6CHnyKSCLFyaSR9"
 gformresponses="https://docs.google.com/forms/d/1SWpu99T3yjXTFChGbYb1Zwq2m7mj2bXEr5d1WDS0iZ4/edit#responses"
