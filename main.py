@@ -55,8 +55,8 @@ print(houselist,"\n",pricelist,"\n",adreslist)                      # ['$1,200',
 
 drive=webdriver.Chrome(chromedriver_path)
 drive.get(googleform)
-gmail="pk1649@srmist.edu.in"
-gpass="Gajini@1649"
+gmail="YOUR_EMAIL_ID_FOR_GFORMS@gmail.com"
+gpass="ITS PASSWORD"
 mail=drive.find_element_by_xpath('//*[@id="identifierId"]')
 mail.click()
 mail.send_keys(gmail,Keys.ENTER)
